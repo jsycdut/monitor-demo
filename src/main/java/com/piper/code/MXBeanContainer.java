@@ -1,7 +1,12 @@
 package com.piper.code;
 
+import java.lang.management.ClassLoadingMXBean;
+import java.lang.management.CompilationMXBean;
 import java.lang.management.ManagementFactory;
-import java.lang.management.*;
+import java.lang.management.MemoryMXBean;
+import java.lang.management.OperatingSystemMXBean;
+import java.lang.management.RuntimeMXBean;
+import java.lang.management.ThreadMXBean;
 
 public final class MXBeanContainer {
   final MemoryMXBean memory;
